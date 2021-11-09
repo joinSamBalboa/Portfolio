@@ -1,5 +1,8 @@
+import React from 'react'
+import Fullpage from './Fullpage'
+
 function App() {
-  return <h1>Hello World</h1>
+  return <Fullpage />
 }
 
 export default App
