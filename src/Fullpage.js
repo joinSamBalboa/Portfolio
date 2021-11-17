@@ -7,8 +7,11 @@ import Contact from './Contact'
 
 
 
+
 const Fullpage = () => (
   <ReactFullpage
+
+  
 
     //fullpage options
     licenseKey = {null}

@@ -135,6 +135,11 @@ h2{
     height: calc(20% - 50px);
     padding: 25px;
   }
+  p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 .about{
   padding: 0 30px;
