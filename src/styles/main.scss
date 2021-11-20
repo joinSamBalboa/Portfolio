@@ -6,6 +6,23 @@ $red: #ff5757;
 *{
   margin: auto;
 }
+.navbar{
+  display: flex;
+
+  ul{
+  display: flex;
+  justify-content: end;
+  list-style: none;
+
+  a{
+    text-decoration: none;
+    color: #737373;
+    margin: 0 10px;
+  }
+  }
+}
+
+
 h1{
   color:$red;
 }
@@ -104,6 +121,7 @@ h2{
 .main{
   display: flex;
   justify-content: space-between;
+  height: 95vh;
 }
 .quote{
   padding: 250px;
@@ -151,7 +169,7 @@ h2{
   height: 50vh;
 
   p{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 2;
     text-align: justify;
 
@@ -233,6 +251,7 @@ h2{
   height: 95vh;
   text-align: center;
 }
+
 
 @media screen and (max-device-width: 700px) { 
   .main{

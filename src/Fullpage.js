@@ -11,29 +11,31 @@ import Contact from './Contact'
 const Fullpage = () => (
   <ReactFullpage
 
-  
+
 
     //fullpage options
-    licenseKey = {null}
+    licenseKey={null}
     scrollingSpeed={1000} /* Options here */
 
     render={({ fullpageApi }) => {
       return (
-        <ReactFullpage.Wrapper>
-          <div className="section home">
-            <Home fullpageApi={fullpageApi} />
-          </div>
-          <div className="section about">
-            <About fullpageApi={fullpageApi} />
-          </div>
-          <div className="section project">
-            <Project fullpageApi={fullpageApi} />
-          </div>
-          <div className="section contact">
-            <Contact fullpageApi={fullpageApi} />
-          </div>
+        <>
+          <ReactFullpage.Wrapper>
+            <div className="section home" data-anchor="Home">
+              <Home fullpageApi={fullpageApi} />
+            </div>
+            <div className="section about" data-anchor="About">
+              <About fullpageApi={fullpageApi} />
+            </div>
+            <div className="section project" data-anchor="Project">
+              <Project fullpageApi={fullpageApi} />
+            </div>
+            <div className="section contact" data-anchor="Contact">
+              <Contact fullpageApi={fullpageApi} />
+            </div>
 
-        </ReactFullpage.Wrapper>
+          </ReactFullpage.Wrapper>
+        </>
       )
     }}
   />

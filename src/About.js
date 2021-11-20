@@ -34,7 +34,7 @@ const About = ({ fullpageApi }) => {
       <h1>About</h1>
       <div className="main">
         <div className="aboutText">
-          <p>Software engineering/development, web development, full-stack, front-end/back-end, are different names I’ve come across for what I now do, but I didn’t exactly know what the difference was when I first start, if there even is one. All I know is that my passion for coding gets stronger and stronger the more I learn and the more I apply myself. I’ve always been enjoyed using logical reasoning and critical thinking to solve many issues that have come about and I’ve now found the perfect purpose for it while also enjoying what I do. My background has been in sales and finance, where I’ve spent plenty of time solving problems for clients working as hard as I possibly could to meet their needs. I have an economics degree which is coming more and more useful as I tackle new concepts in which I have to be open in the was I deal with them. I want to look back after 2/5/10 years and be amazed with how much I’ve learnt and contributed. I want to be great at what I do and I can only do this by learning.</p>
+          <p>Software engineering/development, web development, full-stack, front-end/back-end, are different names I’ve come across for what I now do, but I didn’t exactly know what the difference was when I first started, if there even is one. All I know is that my passion for coding gets stronger and stronger the more I learn and the more I apply myself. I’ve always enjoyed using logical reasoning and critical thinking to solve many issues that have come about and I’ve now found the perfect purpose for it while also enjoying what I do. My background has been in sales and finance, where I’ve spent plenty of time solving problems for clients working as hard as I possibly could to meet their needs. I have an economics degree which is coming more and more useful as I tackle new concepts in which I have to be open in the was I deal with them. I want to look back after 2/5/10 years and be amazed with how much I’ve learnt and contributed. I want to be great at what I do and I can only do this by learning.</p>
         </div>
         <div className="techStack">
           <div className="logos">
@@ -62,7 +62,7 @@ const About = ({ fullpageApi }) => {
         </div>
       </div>
       <div className="arrowContainer">
-        <button className="arrow down centerBottom" onClick={() => fullpageApi.moveSectionDown()} />
+        <button className="arrow down centerBottom" onClick={() => fullpageApi.moveSectionDown().moveSectionDown()} />
       </div>
     </>
   )
