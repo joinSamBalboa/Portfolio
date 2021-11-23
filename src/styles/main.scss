@@ -260,6 +260,11 @@ h2{
 @media screen and (max-device-width: 700px) { 
   .main{
     flex-direction: column;
+    justify-content: normal;
+
+    .logo{
+      margin: 70px 0;
+    }
   }
   .quote{
     padding: 50px 0;
