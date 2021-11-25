@@ -38,26 +38,206 @@ const About = ({ fullpageApi }) => {
         </div>
         <div className="techStack">
           <div className="logos">
-            <img src={bootstrap} alt="" />
-            <img src={css} alt="" />
-            <img src={django} alt={django} />
-            <img src={express} alt={express} />
-            <img src={git} alt={git} />
-            <img src={github} alt={github} />
-            <img src={heroku} alt={heroku} />
-            <img src={homebrew} alt={homebrew} />
-            <img src={html} alt={html} />
-            <img src={insomnia} alt={insomnia} />
-            <img src={js} alt={js} />
-            <img src={mongodb} alt={mongodb} />
-            <img src={netlify} alt={netlify} />
-            <img src={node} alt={node} />
-            <img src={npm} alt={npm} />
-            <img src={postgre} alt={postgre} />
-            <img src={python} alt={python} />
-            <img src={react} alt={react} />
-            <img src={sass} alt={sass} />
-            <img src={yarn} alt={yarn} />
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={bootstrap} alt="" />
+                </div>
+                <div className="flip-card-back">
+                  <p>Bootstrap</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={css} alt="" />
+                </div>
+                <div className="flip-card-back">
+                  <p>CSS</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={django} alt={django} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Django</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={express} alt={express} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Express</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={git} alt={git} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Git</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={github} alt={github} />
+                </div>
+                <div className="flip-card-back">
+                  <p>GitHub</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={heroku} alt={heroku} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Heroku</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={homebrew} alt={homebrew} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Homebrew</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={html} alt={html} />
+                </div>
+                <div className="flip-card-back">
+                  <p>HTML5</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={insomnia} alt={insomnia} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Insomnia</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={js} alt={js} />
+                </div>
+                <div className="flip-card-back">
+                  <p>JavaScript</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={mongodb} alt={mongodb} />
+                </div>
+                <div className="flip-card-back">
+                  <p>MongoDB</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={netlify} alt={netlify} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Netlify</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={node} alt={node} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Node.js</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={npm} alt={npm} />
+                </div>
+                <div className="flip-card-back">
+                  <p>NPM</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={postgre} alt={postgre} />
+                </div>
+                <div className="flip-card-back">
+                  <p>PostgreSQL</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={python} alt={python} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Python</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={react} alt={react} />
+                </div>
+                <div className="flip-card-back">
+                  <p>React.js</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={sass} alt={sass} />
+                </div>
+                <div className="flip-card-back">
+                  <p>SASS</p>
+                </div>
+              </div>
+            </div>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <img src={yarn} alt={yarn} />
+                </div>
+                <div className="flip-card-back">
+                  <p>Yarn</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
