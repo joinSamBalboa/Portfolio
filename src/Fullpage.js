@@ -14,7 +14,7 @@ const Fullpage = () => (
 
 
     //fullpage options
-    licenseKey={null}
+    licenseKey={'2EbGUEC&z8'}
     scrollingSpeed={1000} /* Options here */
 
     render={({ fullpageApi }) => {

@@ -182,11 +182,11 @@ h2{
 .flip-card-front, .flip-card-back {
   position: absolute;
   display: flex;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  align-items: center;
 }
 .flip-card-back {
-  align-items: center;
   transform: rotateY(180deg);
 }
 .about{
