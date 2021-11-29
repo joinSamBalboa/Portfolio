@@ -39,7 +39,7 @@ const Interests = ({ fullpageApi }) => {
         <div className="interests">
           <h3> Addicted to FPL</h3>
           <img src={fpl} alt={fpl} />
-          <p>I’m a big arsenal fan, but I don’t let that cloud my judgement with FPL. playing FPL just makes the league so much fun, and any non-arsenal matches much more interesting when you know you have something riding on it. Ruins your weekend when your captain doesn’t get a goal (Kane I’m looking at you). My best finish was the 2020/1 season - 61,210 out of 8m+ (Top 0.01%).</p>
+          <p>I’m a big arsenal fan, but I don’t let that cloud my judgement with FPL. Playing FPL just makes the league so much fun, and any non-arsenal matches much more interesting when you know you have something riding on it. Ruins your weekend when your captain doesn’t get a goal (Kane I’m looking at you). My best finish was the 2020/1 season - 61,210 out of 8m+ (Top 0.01%).</p>
           <br/>
           <p><a href="https://fantasy.premierleague.com/entry/837349/event/1">How I&apos;m doing this season</a></p>
         </div>
