@@ -4,6 +4,8 @@ import Project from './Projects'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
+import Interests from './Interests'
+
 
 
 
@@ -26,6 +28,9 @@ const Fullpage = () => (
             </div>
             <div className="section about" data-anchor="About">
               <About fullpageApi={fullpageApi} />
+            </div>
+            <div className="section interest" data-anchor="Interests">
+              <Interests fullpageApi={fullpageApi} />
             </div>
             <div className="section project" data-anchor="Project">
               <Project fullpageApi={fullpageApi} />
