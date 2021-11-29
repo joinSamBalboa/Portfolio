@@ -32,7 +32,7 @@ const Interests = ({ fullpageApi }) => {
         <div className="interests">
           <h3>Massive Foodie</h3>
           <img src={food} alt={food} />
-          <p>But seriously, who doesn’t love food? I try to experience different cuisines available to me, not just eating out but attempting to make them myself at home. I’ve recently found a list of the best ethnic restaurants to eat at in London according to reddit, and making it my mission to complete this list.<a href="https://goo.gl/maps/LoCrAuDKF5ExNxr59">Fellow foodie?</a></p>
+          <p>But seriously, who doesn’t love food? I try to experience different cuisines available to me, not just eating out but attempting to make them myself at home. I’ve recently found a list of the best ethnic restaurants to eat at in London according to reddit, and making it my mission to complete this list. <a href="https://goo.gl/maps/LoCrAuDKF5ExNxr59">Fellow foodie?</a></p>
           <br/>
           <p>Cooking from: <a href="https://www.goodreads.com/en/book/show/50669534-ottolenghi-flavor">Ottolenghi Flavor: A Cookbook</a></p>
         </div>
