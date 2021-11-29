@@ -175,6 +175,9 @@ h2{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
