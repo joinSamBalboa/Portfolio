@@ -326,6 +326,14 @@ h2{
 
 
 @media screen and (max-device-width: 700px) { 
+  .navbar ul {
+    flex-wrap: wrap;
+
+    a{
+      font-size: 11px;
+    }
+  }
+  
   .main{
     flex-direction: column;
     justify-content: normal;
@@ -388,8 +396,16 @@ h2{
     padding: 1px;
     }
 }
+.project .text {
+  width: 100%;
+  margin-top: 40px;
+}
 .project img {
   width: 90%;
+  
+}
+.project-img{
+  margin:0;
 }
 .project h3 {
   margin: 10px;
@@ -398,5 +414,22 @@ h2{
 .details {
   flex-direction: column;
 
+  .interests{
+    padding: 10px;
+
+
+    h3{
+      font-size: 20px;
+    }
+
+    img{
+      display: none;
+    }
+
+    p{
+      font-size: 12px;
+    }
+  }
+  
 }
 }
